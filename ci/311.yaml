@@ -2,7 +2,7 @@ name: xvec
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.11
   # required
   - shapely >=2
   - xarray
@@ -19,3 +19,4 @@ dependencies:
   - geopandas-base
   - geodatasets
   - pyogrio
+

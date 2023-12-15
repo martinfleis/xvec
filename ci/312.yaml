@@ -2,10 +2,14 @@ name: xvec
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python=3.12
   # required
-  - shapely=2
+  - shapely >=2
   - xarray
+  - rioxarray
+  - joblib
+  - rasterio
+  - tqdm
   - pyproj
   # testing
   - pytest
@@ -13,3 +17,6 @@ dependencies:
   - pytest-xdist
   - pytest-reportlog
   - geopandas-base
+  - geodatasets
+  - pyogrio
+
